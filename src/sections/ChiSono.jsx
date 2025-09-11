@@ -38,10 +38,10 @@ export default function ChiSono() {
             Fin da bambino ho sempre desiderato un computer, mi affascinava
             profondamente. Durante un esercizio in palestra in prima media mi
             ruppi la gamba, non fu una bella esperienza, ma il destino volle che
-            l’assicurazione della scuola decidesse di risarcirmi. Convinta la
-            mia famiglia che possederne uno sarebbe stato un buon investimento,
-            acquistammo il primo computer: un Olivetti PC 128S. Per quei tempi
-            non era niente male, e da lì è iniziato tutto.
+            l’assicurazione della scuola decidesse di risarcirmi. Una volta che
+            la mia famiglia fu convinta che possederne uno sarebbe stato un buon
+            investimento, acquistammo il primo computer: un Olivetti PC 128S.
+            Per quei tempi non era affatto male, e da lì è iniziato tutto.
           </Typography>
           <Typography variant="body1" className="font">
             Da quel momento, l’informatica è diventata parte integrante della
@@ -57,17 +57,17 @@ export default function ChiSono() {
 
           <Typography variant="body1" className="font">
             Crescendo, ho seguito questa inclinazione, conseguendo una qualifica
-            come programmatore e svolgendo uno stage presso Acegas a Trieste.
+            come programmatore e svolgendo uno stage presso l'Acegas a Trieste.
             Nel tempo, sono cresciuto assieme all’evoluzione dei computer:
-            assemblando i miei pc da zero, scegliendo e acquistando i
-            componenti, implementadoli, imparando ogni volta qualcosa di nuovo.
+            assemblando i miei pc da zero, implementadoli, scegliendo e
+            acquistando i componenti, imparando ogni volta qualcosa di nuovo.
             Sono sempre stato considerato un punto di riferimento da amici,
             parenti e colleghi, per risolvere problemi, configurare sistemi o
-            dare consigli sugli acquisti. Successivamente sono stato consulente
-            e venditore in un negozio di informatica dove mi occupavo dalla
-            consulenza tecnica all’assemblaggio, fino all’assistenza
-            post-vendita. Ogni configurazione richiedeva competenza e pazienza,
-            e ogni cliente portava con sé una sfida diversa.
+            dare consigli. Successivamente sono stato consulente e venditore in
+            un negozio di informatica dove mi occupavo dalla consulenza tecnica
+            all’assemblaggio, fino all’assistenza post-vendita. Ogni
+            configurazione richiedeva pazienza, e ogni cliente portava con sé
+            una sfida diversa.
           </Typography>
 
           <Typography variant="body1" className="font">
@@ -82,9 +82,9 @@ export default function ChiSono() {
           <Typography variant="body1" className="font">
             Questa combinazione tra pensiero logico e profondità creativa ha
             sempre fatto parte del mio modo di essere fin da giovane. Spinto
-            dalla volontà di confrontarmi con un contesto stimolante, sono
-            entrato a far parte del Mensa e per me ha rappresentato
-            un’opportunità per ottenere alcune conferme.
+            dalla volontà di confrontarmi con un contesto stimolante, sono anche
+            entrato a far parte del Mensa e per me ha rappresentato una
+            opportunità per ottenere alcune conferme.
           </Typography>
 
           <Typography variant="body1" className="font">
@@ -118,7 +118,7 @@ export default function ChiSono() {
           <Typography variant="body1" className="font">
             Quello che mi entusiasma, in questo ambito, è vedere come la
             programmazione possa dare forma alle idee e offrire opportunità
-            reali. Trovo ispirazione nei risultati raggiunti da realtà come
+            reali. Trovo di ispirazione i risultati raggiunti da realtà come
             Google, Amazon e molte altre, per la loro capacità di trasformare il
             mondo tech, introdurre innovazioni straordinarie e rivoluzionarie.
             Allo stesso modo, mi motiva l’idea di aiutare chi vuole crescere:
@@ -127,12 +127,12 @@ export default function ChiSono() {
             ancora visibilità. È in quel momento che posso fare la differenza.
           </Typography>
           <Typography variant="body1" className="font">
-            L'esperienza mi ha insegnato il valore del dettaglio,
-            dell’organizzazione e della capacità di trovare soluzioni anche di
-            fronte a sfide complesse. Affronto ogni progetto con autenticità e
-            schiettezza, analizzando a fondo ciò che ho davanti per comprenderlo
-            in profondità. Credo che solo così si possano creare soluzioni
-            efficaci, capaci di produrre impatti tangibili.
+            L'esperienza maturata finora mi ha insegnato il valore del
+            dettaglio, dell’organizzazione e della capacità di trovare soluzioni
+            anche di fronte a sfide complesse. Affronto ogni progetto con
+            autenticità e schiettezza, analizzando a fondo ciò che ho davanti
+            per comprenderlo in profondità. Credo che solo così si possano
+            creare soluzioni efficaci, capaci di produrre impatti tangibili.
           </Typography>
         </Grid>
       </Grid>
