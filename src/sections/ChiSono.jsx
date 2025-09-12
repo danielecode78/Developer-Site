@@ -39,7 +39,7 @@ export default function ChiSono() {
             profondamente. Durante un esercizio in palestra in prima media mi
             ruppi la gamba, non fu una bella esperienza, ma il destino volle che
             l’assicurazione della scuola decidesse di risarcirmi. Una volta che
-            la mia famiglia fu convinta che possederne uno sarebbe stato un buon
+            la mia famiglia si convinse che possederne uno sarebbe stato un buon
             investimento, acquistammo il primo computer: un Olivetti PC 128S.
             Per quei tempi non era affatto male, e da lì è iniziato tutto.
           </Typography>
