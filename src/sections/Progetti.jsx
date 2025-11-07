@@ -27,7 +27,7 @@ const itemData = [
   },
   {
     img: `${import.meta.env.BASE_URL}/images/Bricopointshop.png`,
-    title: "Brico Point Shop",
+    title: "BricoPointShop",
     description: "Esempio di ecommerce fai da te e hobbystica",
     link: "https://bricopointshop.onrender.com/",
   },
@@ -60,13 +60,13 @@ export default function Progetti() {
   return (
     <>
       <ImageList cols={cols}>
-        {itemData.map((item) => (
+        {itemData.map((item, index) => (
           <ImageListItem
             sx={{
               display: "flex",
               flexDirection: "column",
             }}
-            key={item.img}
+            key={index}
           >
             <Card
               variant="outlined"

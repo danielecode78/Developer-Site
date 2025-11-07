@@ -1,4 +1,4 @@
-import { Typography, Grid, Card } from "@mui/material";
+import { Typography, Grid, Card, Box } from "@mui/material";
 
 export default function ChiSono() {
   return (
@@ -18,9 +18,6 @@ export default function ChiSono() {
     >
       <Grid container spacing={4} alignItems="center">
         <Grid
-          item
-          xs={12}
-          md={8}
           sx={{
             ".font": {
               textAlign: "justify",
@@ -42,13 +39,14 @@ export default function ChiSono() {
             nell’assemblaggio, configurazione e consulenza informatica,
             lavorando anche come tecnico e venditore in negozi specializzati.
           </Typography>
+
           <Typography variant="body1" className="font">
             Nel tempo ho ampliato il mio profilo, esplorando ambiti come la
             progettazione tecnica con AutoCAD e l’audio editing, alimentato
             dalla mia passione per la musica, in quanto chitarrista. Questa
             combinazione tra pensiero analitico e creatività mi ha portato a
             sviluppare soluzioni efficaci e personalizzate, diventando un punto
-            di riferimento per colleghi, amici e clienti
+            di riferimento per colleghi, amici e clienti.
           </Typography>
 
           <Typography variant="body1" className="font">
@@ -56,23 +54,33 @@ export default function ChiSono() {
             mutui per un primario gruppo italiano. L’attività richiede
             precisione, capacità di analisi e attenzione al dettaglio,
             competenze che si integrano con il mio background tecnico e
-            rafforzano la mia affidabilità professionale
+            rafforzano la mia affidabilità professionale.
           </Typography>
 
           <Typography variant="h5" fontWeight={600} textAlign="left">
             Competenze tecniche
           </Typography>
+
           <Typography variant="body1" className="font">
             Negli ultimi anni mi sono formato come full stack developer,
             ottenendo certificazioni e realizzando progetti concreti con
             tecnologie quali:
-            <ul style={{ listStyleType: "square" }}>
-              <li>
-                Frontend: HTML, CSS, JavaScript, React, Vite, Tailwind,
-                Bootstrap, MUI - Backend: Node.js, Express
-              </li>
-              <li>Backend: Node.js, Express - Database: MongoDB, Mongoose</li>
-            </ul>
+          </Typography>
+
+          <Box component="ul" sx={{ listStyleType: "square", pl: 3 }}>
+            <Typography component="li" className="font">
+              Frontend: HTML, CSS, JavaScript, React, Vite, Tailwind, Bootstrap,
+              MUI
+            </Typography>
+            <Typography component="li" className="font">
+              Backend: Node.js, Express
+            </Typography>
+            <Typography component="li" className="font">
+              Database: MongoDB, Mongoose
+            </Typography>
+          </Box>
+
+          <Typography variant="body1" className="font">
             Sto attualmente lavorando alla costruzione di un portfolio
             professionale che rappresenti la mia evoluzione come sviluppatore. I
             prossimi obiettivi includono l’integrazione di TypeScript,
@@ -84,34 +92,90 @@ export default function ChiSono() {
           <Typography variant="h5" fontWeight={600} textAlign="left">
             Visione e motivazione
           </Typography>
+
           <Typography variant="body1" className="font">
             Credo nel potere della tecnologia come leva per trasformare idee in
-            opportunità concrete. Mi ispirano le realtà che innovano,come Google
-            e Amazon, e mi motiva l’idea di supportare startup, imprese e
+            opportunità concrete. Mi ispirano le realtà che innovano, come
+            Google e Amazon, e mi motiva l’idea di supportare startup, imprese e
             professionisti nella creazione di soluzioni digitali che generino
-            impatto e visibilità
+            impatto e visibilità.
           </Typography>
+
           <Typography variant="h5" fontWeight={600} textAlign="left">
             Soft skills
           </Typography>
-          <Typography variant="body1" className="font">
-            <ul style={{ listStyleType: "square" }}>
-              <li>Pensiero analitico e orientamento al dettaglio</li>
-              <li>Capacità di problem solving anche in contesti complessi</li>
-              <li>Comunicazione chiara e approccio autentico</li>
-              <li>Organizzazione e precisione</li>
-              <li>Attitudine all’apprendimento continuo</li>
-              <li>
-                Sono membro del Mensa, un riconoscimento che riflette la mia
-                predisposizione all’analisi e alla riflessione profonda
-              </li>
-              <li>
-                Ogni progetto che affronto è guidato dalla volontà di
-                comprendere a fondo, creare valore e generare soluzioni
-                tangibili
-              </li>
-            </ul>
+
+          <Box component="ul" sx={{ listStyleType: "square", pl: 3 }}>
+            <Typography component="li" className="font">
+              Pensiero analitico e orientamento al dettaglio
+            </Typography>
+            <Typography component="li" className="font">
+              Capacità di problem solving anche in contesti complessi
+            </Typography>
+            <Typography component="li" className="font">
+              Comunicazione chiara e approccio autentico
+            </Typography>
+            <Typography component="li" className="font">
+              Organizzazione e precisione
+            </Typography>
+            <Typography component="li" className="font">
+              Attitudine all’apprendimento continuo
+            </Typography>
+            <Typography component="li" className="font">
+              Sono membro del Mensa, un riconoscimento che riflette la mia
+              predisposizione all’analisi e alla riflessione profonda
+            </Typography>
+            <Typography component="li" className="font">
+              Ogni progetto che affronto è guidato dalla volontà di comprendere
+              a fondo, creare valore e generare soluzioni tangibili
+            </Typography>
+          </Box>
+
+          <Typography variant="h5" fontWeight={600} textAlign="left">
+            Certificazioni
           </Typography>
+
+          <Box component="ul" sx={{ listStyleType: "square", pl: 3 }}>
+            <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+              <Typography component="li" className="font">
+                Responsive Web Design - Quincy Larson
+              </Typography>
+
+              <Box
+                component="img"
+                src={`${import.meta.env.BASE_URL}/images/freeCodeCamp.png`}
+                alt="freeCodeCamp badge"
+                height={20}
+                sx={{ mb: 2 }}
+              />
+            </Box>
+            <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+              <Typography component="li" className="font">
+                JavaScript Algorithms and Data Structures - Quincy Larson
+              </Typography>
+
+              <Box
+                component="img"
+                src={`${import.meta.env.BASE_URL}/images/freeCodeCamp.png`}
+                alt="freeCodeCamp badge"
+                height={20}
+                sx={{ mb: 2 }}
+              />
+            </Box>
+            <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+              <Typography component="li" className="font">
+                The Web Developer Bootcamp 2025 - Colt Steele - Udemy
+              </Typography>
+
+              <Box
+                component="img"
+                src={`${import.meta.env.BASE_URL}/images/Udemy.png`}
+                alt="freeCodeCamp badge"
+                height={25}
+                sx={{ mb: 2 }}
+              />
+            </Box>
+          </Box>
         </Grid>
       </Grid>
     </Card>
