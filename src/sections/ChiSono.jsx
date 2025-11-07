@@ -30,109 +30,87 @@ export default function ChiSono() {
             },
           }}
         >
-          <Typography variant="h4" fontWeight="bold" gutterBottom>
-            CHI SONO
+          <Typography variant="h5" fontWeight={600} textAlign="left">
+            Profilo
           </Typography>
 
           <Typography variant="body1" className="font">
-            Fin da bambino ho sempre desiderato un computer, mi affascinava
-            profondamente. Durante un esercizio in palestra in prima media mi
-            ruppi la gamba, non fu una bella esperienza, ma il destino volle che
-            l’assicurazione della scuola decidesse di risarcirmi. Una volta che
-            la mia famiglia si convinse che possederne uno sarebbe stato un buon
-            investimento, acquistammo il primo computer: un Olivetti PC 128S.
-            Per quei tempi non era affatto male, e da lì è iniziato tutto.
+            Appassionato di informatica fin dall’infanzia, ho trasformato una
+            curiosità precoce in un percorso solido e multidisciplinare. Dopo
+            aver conseguito una qualifica come programmatore e svolto uno stage
+            presso Acegas a Trieste, ho maturato competenze tecniche
+            nell’assemblaggio, configurazione e consulenza informatica,
+            lavorando anche come tecnico e venditore in negozi specializzati.
           </Typography>
           <Typography variant="body1" className="font">
-            Da quel momento, l’informatica è diventata parte integrante della
-            mia vita. Ricordo ancora quando programmavo in BASIC, creando
-            piccoli videogiochi e semplici applicazioni: era il mio modo di
-            esplorare e dare forma alla mia curiosità. Alle scuole medie ero
-            considerato l'esperto della scuola e il professore di educazione
-            tecnica mi faceva chiamare spesso fuori dalla classe durante le
-            lezioni per andare a sistemare il computer o altro. Aveva persino
-            dedicato un piccolo spazio dove mostravo ai miei compagni qualche
-            semplice programma creato sul momento.
+            Nel tempo ho ampliato il mio profilo, esplorando ambiti come la
+            progettazione tecnica con AutoCAD e l’audio editing, alimentato
+            dalla mia passione per la musica, in quanto chitarrista. Questa
+            combinazione tra pensiero analitico e creatività mi ha portato a
+            sviluppare soluzioni efficaci e personalizzate, diventando un punto
+            di riferimento per colleghi, amici e clienti
           </Typography>
 
           <Typography variant="body1" className="font">
-            Crescendo, ho seguito questa inclinazione, conseguendo una qualifica
-            come programmatore e svolgendo uno stage presso l'Acegas a Trieste.
-            Nel tempo, sono cresciuto assieme all’evoluzione dei computer:
-            assemblando i miei pc da zero, implementadoli, scegliendo e
-            acquistando i componenti, imparando ogni volta qualcosa di nuovo.
-            Sono sempre stato considerato un punto di riferimento da amici,
-            parenti e colleghi, per risolvere problemi, configurare sistemi o
-            dare consigli. Successivamente sono stato consulente e venditore in
-            un negozio di informatica dove mi occupavo dalla consulenza tecnica
-            all’assemblaggio, fino all’assistenza post-vendita. Ogni
-            configurazione richiedeva pazienza, e ogni cliente portava con sé
-            una sfida diversa.
+            Attualmente lavoro nel settore bancario, occupandomi di istruttoria
+            mutui per un primario gruppo italiano. L’attività richiede
+            precisione, capacità di analisi e attenzione al dettaglio,
+            competenze che si integrano con il mio background tecnico e
+            rafforzano la mia affidabilità professionale
           </Typography>
 
-          <Typography variant="body1" className="font">
-            Nel corso degli anni ho avuto modo di esplorare altri ambiti guidato
-            dalla voglia di imparare. Ho lavorato con AutoCAD, approfondendo la
-            progettazione tecnica e grafica in alcuni progetti, e mi sono
-            dedicato all’audio editing, un’estensione naturale della mia
-            passione per la musica. Sono infatti un chitarrista, e la musica è
-            da sempre una parte fondamentale della mia vita, che mi ha insegnato
-            precisione, concentrazione e creatività.
+          <Typography variant="h5" fontWeight={600} textAlign="left">
+            Competenze tecniche
           </Typography>
           <Typography variant="body1" className="font">
-            Questa combinazione tra pensiero logico e profondità creativa ha
-            sempre fatto parte del mio modo di essere fin da giovane. Spinto
-            dalla volontà di confrontarmi con un contesto stimolante, sono anche
-            entrato a far parte del Mensa e per me ha rappresentato una
-            opportunità per ottenere alcune conferme.
-          </Typography>
-
-          <Typography variant="body1" className="font">
-            Da diversi anni, lavoro nel settore bancario, attualmente
-            occupandomi di istruttoria per il canale mutui di un importante
-            gruppo bancario italiano. È un’attività che richiede precisione,
-            capacità di analisi e attenzione ai dettagli, competenze che nel
-            tempo ho affinato e che si integrano con il mio background
-            informatico, contribuendo a dare continuità e valore al mio
-            percorso.
-          </Typography>
-          <Typography variant="body1" className="font">
-            Dal punto di vista informatico, nelle fasi più recenti, mi sono
-            formato come full stack developer ottenendo certificazioni e
-            realizzando progetti concreti con tecnologie come HTML, CSS,
-            JavaScript, React, Vite, Tailwind, Bootstrap, MUI, Node.js, Express,
-            MongoDB e Mongoose. Questo percorso mi ha permesso di ampliarmi
-            attraverso competenze pratiche nello sviluppo e nella pubblicazione
-            di applicazioni web moderne, consolidando ulteriormente la mia
-            preparazione.
-          </Typography>
-          <Typography variant="body1" className="font">
-            Attualmente sto concentrando le mie energie sulla realizzazione di
-            un portfolio solido e rappresentativo, che metta in luce la mia
-            evoluzione e la mia visione come sviluppatore. Una volta completato,
-            il mio obiettivo sarà ampliare lo stack tecnico con TypeScript ed
-            esplorare ambiti come Python, automazione, machine learning e
+            Negli ultimi anni mi sono formato come full stack developer,
+            ottenendo certificazioni e realizzando progetti concreti con
+            tecnologie quali:
+            <ul style={{ listStyleType: "square" }}>
+              <li>
+                Frontend: HTML, CSS, JavaScript, React, Vite, Tailwind,
+                Bootstrap, MUI - Backend: Node.js, Express
+              </li>
+              <li>Backend: Node.js, Express - Database: MongoDB, Mongoose</li>
+            </ul>
+            Sto attualmente lavorando alla costruzione di un portfolio
+            professionale che rappresenti la mia evoluzione come sviluppatore. I
+            prossimi obiettivi includono l’integrazione di TypeScript,
+            l’approfondimento di Python, automazione, machine learning e
             intelligenza artificiale, con l’intento di diventare sempre più
             completo e orientato all’innovazione.
           </Typography>
-          <Typography variant="body1" className="font">
-            Quello che mi entusiasma, in questo ambito, è vedere come la
-            programmazione possa dare forma alle idee e offrire opportunità
-            reali. Trovo di ispirazione i risultati raggiunti da realtà come
-            Google, Amazon e molte altre, per la loro capacità di trasformare il
-            mondo tech, introdurre innovazioni straordinarie e rivoluzionarie.
-            Allo stesso modo, mi motiva l’idea di aiutare chi vuole crescere:
-            startup, imprese, professionisti. Un progetto digitale ben pensato
-            può diventare il punto di svolta per chi ha molto da offrire ma non
-            ancora visibilità. È in quel momento che posso fare la differenza.
+
+          <Typography variant="h5" fontWeight={600} textAlign="left">
+            Visione e motivazione
           </Typography>
           <Typography variant="body1" className="font">
-            L'esperienza maturata finora mi ha insegnato il valore del
-            dettaglio, dell’organizzazione e della capacità di trovare soluzioni
-            anche di fronte a sfide complesse. Affronto ogni progetto con
-            autenticità e schiettezza, analizzando a fondo ciò che ho davanti
-            per comprenderlo in profondità. Credo che solo così si possano
-            creare soluzioni efficaci, capaci di produrre impatti tangibili.
+            Credo nel potere della tecnologia come leva per trasformare idee in
+            opportunità concrete. Mi ispirano le realtà che innovano,come Google
+            e Amazon, e mi motiva l’idea di supportare startup, imprese e
+            professionisti nella creazione di soluzioni digitali che generino
+            impatto e visibilità
+          </Typography>
+          <Typography variant="h5" fontWeight={600} textAlign="left">
+            Soft skills
+          </Typography>
+          <Typography variant="body1" className="font">
+            <ul style={{ listStyleType: "square" }}>
+              <li>Pensiero analitico e orientamento al dettaglio</li>
+              <li>Capacità di problem solving anche in contesti complessi</li>
+              <li>Comunicazione chiara e approccio autentico</li>
+              <li>Organizzazione e precisione</li>
+              <li>Attitudine all’apprendimento continuo</li>
+              <li>
+                Sono membro del Mensa, un riconoscimento che riflette la mia
+                predisposizione all’analisi e alla riflessione profonda
+              </li>
+              <li>
+                Ogni progetto che affronto è guidato dalla volontà di
+                comprendere a fondo, creare valore e generare soluzioni
+                tangibili
+              </li>
+            </ul>
           </Typography>
         </Grid>
       </Grid>

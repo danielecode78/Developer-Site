@@ -26,13 +26,19 @@ const itemData = [
     link: "https://goodtimelog.onrender.com/",
   },
   {
-    img: `${import.meta.env.BASE_URL}/images/comingsoon.png`,
-    title: "Work In Progress...",
+    img: `${import.meta.env.BASE_URL}/images/Bricopointshop.png`,
+    title: "Brico Point Shop",
+    description: "Esempio di ecommerce fai da te e hobbystica",
+    link: "https://bricopointshop.onrender.com/",
   },
   {
-    img: `${import.meta.env.BASE_URL}/images/comingsoon.png`,
-    title: "Work In Progress...",
+    img: `${import.meta.env.BASE_URL}/images/Gardenentials.png`,
+    title: "Gardenentials",
+    description:
+      "Gardenentials è un’app web pensata per chi ama il giardinaggio e desidera prendersi cura dei propri spazi verdi in modo semplice, ordinato e personale.",
+    link: "https://gardenentials.onrender.com/",
   },
+
   {
     img: `${import.meta.env.BASE_URL}/images/comingsoon.png`,
     title: "Work In Progress...",

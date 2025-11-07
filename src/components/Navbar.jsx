@@ -86,7 +86,7 @@ export default function Navbar({ clickPage }) {
               className={`text-title ${clicked ? "text-gold" : ""}`}
               onClick={titleClick}
             >
-              DANIELE CODE 78 DEVELOPER SITE
+              DANIELE CODE DEVELOPER SITE
             </span>
           </Typography>
 

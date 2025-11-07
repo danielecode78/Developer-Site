@@ -15,7 +15,7 @@ export default function Footer() {
     >
       <Container maxWidth="lg">
         <Typography variant="body2" align="center">
-          © 2025 DanieleCode78 – Developer Site. Tutti i diritti riservati.
+          © 2025 DanieleCode – Developer Site. Tutti i diritti riservati.
         </Typography>
       </Container>
     </Box>
