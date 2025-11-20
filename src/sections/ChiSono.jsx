@@ -1,4 +1,5 @@
 import { Typography, Grid, Card, Box } from "@mui/material";
+import { certifications } from "../utils/certifications";
 
 export default function ChiSono() {
   return (
@@ -135,46 +136,35 @@ export default function ChiSono() {
             Certificazioni
           </Typography>
 
-          <Box component="ul" sx={{ listStyleType: "square", pl: 3 }}>
-            <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-              <Typography component="li" className="font">
-                Responsive Web Design - Quincy Larson
-              </Typography>
-
-              <Box
-                component="img"
-                src={`${import.meta.env.BASE_URL}/images/freeCodeCamp.png`}
-                alt="freeCodeCamp badge"
-                height={20}
-                sx={{ mb: 2 }}
-              />
-            </Box>
-            <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-              <Typography component="li" className="font">
-                JavaScript Algorithms and Data Structures - Quincy Larson
-              </Typography>
-
-              <Box
-                component="img"
-                src={`${import.meta.env.BASE_URL}/images/freeCodeCamp.png`}
-                alt="freeCodeCamp badge"
-                height={20}
-                sx={{ mb: 2 }}
-              />
-            </Box>
-            <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-              <Typography component="li" className="font">
-                The Web Developer Bootcamp 2025 - Colt Steele - Udemy
-              </Typography>
-
-              <Box
-                component="img"
-                src={`${import.meta.env.BASE_URL}/images/Udemy.png`}
-                alt="freeCodeCamp badge"
-                height={25}
-                sx={{ mb: 2 }}
-              />
-            </Box>
+          <Box
+            component="ul"
+            sx={{
+              listStyleType: "square",
+              pl: 3,
+              columnCount: { xs: 1, xl: 2 },
+            }}
+          >
+            {certifications?.length > 0 &&
+              certifications.map((item) => (
+                <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                  <Typography component="li" className="font">
+                    {item.title}
+                  </Typography>
+                  <Box
+                    component="img"
+                    src={`${import.meta.env.BASE_URL}/images/${
+                      item.provider
+                    }.png`}
+                    alt="freeCodeCamp badge"
+                    height={20}
+                    sx={{
+                      mb: 2,
+                      border: "1px solid gray",
+                      borderRadius: 1,
+                    }}
+                  />
+                </Box>
+              ))}
           </Box>
         </Grid>
       </Grid>
