@@ -57,3 +57,8 @@ body {
 .text-gold {
   animation: glowFadeOut 4.8s linear forwards;
 }
+
+.chapters {
+  color: #8b6f29;
+  margin-bottom: 20px !important;
+}

@@ -119,6 +119,21 @@ export default function Navbar({ clickPage }) {
           ) : (
             menuItems.map((item) => (
               <Button
+                sx={{
+                  transition: "all 0.5s ease",
+
+                  "&:hover": {
+                    color: "#bfa14c",
+                    textShadow: `
+      0 0 10px #bfa14c,
+      0 0 20px #a67c00,
+      0 0 30px #8b6f29
+    `,
+                    filter: "brightness(150%)",
+
+                    transform: "translateY(-1px)",
+                  },
+                }}
                 key={item.value}
                 color="inherit"
                 onClick={() => handleClick(item.value)}

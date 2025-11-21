@@ -1,4 +1,13 @@
-import { Typography, Grid, Card, Box } from "@mui/material";
+import {
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  Box,
+  Divider,
+  List,
+  ListItem,
+} from "@mui/material";
 import { certifications } from "../utils/certifications";
 
 export default function ChiSono() {
@@ -28,7 +37,12 @@ export default function ChiSono() {
             },
           }}
         >
-          <Typography variant="h5" fontWeight={600} textAlign="left">
+          <Typography
+            variant="h5"
+            fontWeight={600}
+            textAlign="left"
+            className="chapters"
+          >
             Profilo
           </Typography>
 
@@ -58,7 +72,12 @@ export default function ChiSono() {
             rafforzano la mia affidabilità professionale.
           </Typography>
 
-          <Typography variant="h5" fontWeight={600} textAlign="left">
+          <Typography
+            variant="h5"
+            fontWeight={600}
+            textAlign="left"
+            className="chapters"
+          >
             Competenze tecniche
           </Typography>
 
@@ -90,7 +109,12 @@ export default function ChiSono() {
             completo e orientato all’innovazione.
           </Typography>
 
-          <Typography variant="h5" fontWeight={600} textAlign="left">
+          <Typography
+            variant="h5"
+            fontWeight={600}
+            textAlign="left"
+            className="chapters"
+          >
             Visione e motivazione
           </Typography>
 
@@ -102,7 +126,12 @@ export default function ChiSono() {
             impatto e visibilità.
           </Typography>
 
-          <Typography variant="h5" fontWeight={600} textAlign="left">
+          <Typography
+            variant="h5"
+            fontWeight={600}
+            textAlign="left"
+            className="chapters"
+          >
             Soft skills
           </Typography>
 
@@ -132,38 +161,91 @@ export default function ChiSono() {
             </Typography>
           </Box>
 
-          <Typography variant="h5" fontWeight={600} textAlign="left">
-            Certificazioni
+          <Typography
+            variant="h5"
+            fontWeight={600}
+            textAlign="left"
+            className="chapters"
+          >
+            Certificazioni & Formazione
           </Typography>
 
           <Box
-            component="ul"
             sx={{
-              listStyleType: "square",
-              pl: 3,
-              columnCount: { xs: 1, xl: 2 },
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 3,
+              justifyContent: "center",
+              mt: 2,
             }}
           >
             {certifications?.length > 0 &&
-              certifications.map((item) => (
-                <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-                  <Typography component="li" className="font">
-                    {item.title}
-                  </Typography>
-                  <Box
-                    component="img"
-                    src={`${import.meta.env.BASE_URL}/images/${
-                      item.provider
-                    }.png`}
-                    alt="freeCodeCamp badge"
-                    height={20}
-                    sx={{
-                      mb: 2,
-                      border: "1px solid gray",
-                      borderRadius: 1,
-                    }}
-                  />
-                </Box>
+              certifications.map((item, index) => (
+                <Card
+                  key={index}
+                  sx={{
+                    flex: "1 1 300px",
+                    maxWidth: 400,
+                    boxShadow: 3,
+                    borderRadius: 3,
+                  }}
+                >
+                  <CardContent>
+                    <Typography variant="h5" gutterBottom>
+                      {item.category}
+                    </Typography>
+                    <Divider sx={{ mb: 2 }} />
+
+                    {item.providers.map((provider, pIndex) => (
+                      <Box key={pIndex} sx={{ mb: 2 }}>
+                        <Box
+                          sx={{
+                            display: "flex",
+                            justifyContent: "center",
+                            mb: 1,
+                            border: "1px solid #a67c00",
+                            p: 1,
+                            borderRadius: 2,
+                          }}
+                        >
+                          <Box
+                            component="img"
+                            src={provider.logo}
+                            alt={`${provider.name} logo`}
+                            sx={{
+                              height: 20,
+                            }}
+                          />
+                        </Box>
+                        <List>
+                          {provider.courses.map((cert, cIndex) => (
+                            <ListItem
+                              key={cIndex}
+                              sx={{
+                                display: "flex",
+                                alignItems: "flex-start",
+                                gap: 2,
+                              }}
+                            >
+                              <Typography variant="body2" sx={{ mb: 1 }}>
+                                {cert.title}
+                              </Typography>
+                              {cert.specialization && (
+                                <Box
+                                  component="img"
+                                  src="images/specialization.png"
+                                  sx={{
+                                    width: "100px",
+                                  }}
+                                />
+                              )}
+                            </ListItem>
+                          ))}
+                        </List>
+                      </Box>
+                    ))}
+                  </CardContent>
+                </Card>
               ))}
           </Box>
         </Grid>
