@@ -3,6 +3,11 @@ export const certifications = [
     category: "Front-End & UI/UX",
     providers: [
       {
+        name: "freeCodeCamp",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
+        courses: [{ title: "Responsive Web Design", specialization: false }],
+      },
+      {
         name: "Meta",
         logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
         courses: [
@@ -12,12 +17,6 @@ export const certifications = [
           },
           { title: "Principles of UXUI Design", specialization: false },
           { title: "HTML and CSS in depth", specialization: false },
-          { title: "React Basics", specialization: false },
-          { title: "Advanced React", specialization: false },
-          { title: "Meta React", specialization: true },
-          { title: "Version Control", specialization: false },
-          { title: "Programming with JavaScript", specialization: false },
-          { title: "Coding Interview Preparation", specialization: false },
           { title: "Front-End Developer Capstone", specialization: false },
           { title: "Meta Front-End Developer", specialization: true },
         ],
@@ -28,10 +27,6 @@ export const certifications = [
         courses: [
           {
             title: "Getting Started with Front-End and Web",
-            specialization: false,
-          },
-          {
-            title: "Introduction to HTML, CSS, & JavaScript",
             specialization: false,
           },
           {
@@ -57,32 +52,21 @@ export const certifications = [
           { title: "Tailwind CSS", specialization: true },
         ],
       },
-      {
-        name: "freeCodeCamp",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
-        courses: [
-          { title: "Responsive Web Design", specialization: false },
-          {
-            title: "JavaScript Algorithms and Data Structures",
-            specialization: false,
-          },
-        ],
-      },
+    ],
+  },
+  {
+    category: "Full Stack & Backend",
+    providers: [
       {
         name: "Udemy",
         logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Udemy_logo.svg",
         courses: [
           {
-            title: "The Web Developer Bootcamp 2025 - Colt Steele",
-            specialization: false,
+            title: "Full Stack - The Web Developer Bootcamp 2025 - Colt Steele",
+            specialization: true,
           },
         ],
       },
-    ],
-  },
-  {
-    category: "Back-End & Cloud",
-    providers: [
       {
         name: "IBM",
         logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
@@ -101,13 +85,74 @@ export const certifications = [
               "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
             specialization: false,
           },
-          { title: "JavaScript Programming Essentials", specialization: false },
           {
             title: "Developing Back-End Apps with Node.js and Express",
             specialization: false,
           },
+          {
+            title:
+              "Node.js & MongoDB: Developing Back-end Database Applications",
+            specialization: false,
+          },
+          {
+            title: "Monitoring and Observability for Development and DevOps",
+            specialization: false,
+          },
+          {
+            title: "Software Developer Career Guide and Interview Preparation",
+            specialization: false,
+          },
         ],
       },
+      {
+        name: "Meta",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        courses: [
+          { title: "Version Control", specialization: false },
+          { title: "Coding Interview Preparation", specialization: false },
+        ],
+      },
+    ],
+  },
+  {
+    category: "JavaScript & React",
+    providers: [
+      {
+        name: "Meta",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        courses: [
+          { title: "Programming with JavaScript", specialization: false },
+          { title: "React Basics", specialization: false },
+          { title: "Advanced React", specialization: false },
+          { title: "Meta React", specialization: true },
+        ],
+      },
+      {
+        name: "IBM",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        courses: [
+          {
+            title: "Introduction to HTML, CSS, & JavaScript",
+            specialization: false,
+          },
+          { title: "JavaScript Programming Essentials", specialization: false },
+        ],
+      },
+      {
+        name: "freeCodeCamp",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
+        courses: [
+          {
+            title: "JavaScript Algorithms and Data Structures",
+            specialization: false,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Cloud",
+    providers: [
       {
         name: "AWS",
         logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
@@ -124,6 +169,21 @@ export const certifications = [
             specialization: false,
           },
           { title: "AWS Cloud Solutions Architect", specialization: true },
+        ],
+      },
+      {
+        name: "IBM",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        courses: [
+          {
+            title: "Application Development using Microservices and Serverless",
+            specialization: false,
+          },
+          {
+            title:
+              "Application Security for Developers and DevOps Professionals",
+            specialization: false,
+          },
         ],
       },
     ],
