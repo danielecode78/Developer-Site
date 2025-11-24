@@ -102,6 +102,14 @@ export const certifications = [
             title: "Software Developer Career Guide and Interview Preparation",
             specialization: false,
           },
+          {
+            title: "JavaScript Back-end Capstone Project",
+            specialization: false,
+          },
+          {
+            title: "IBM JavaScript Backend Developer",
+            specialization: true,
+          },
         ],
       },
       {
