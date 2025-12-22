@@ -65,9 +65,9 @@ export default function Contatti() {
       >
         <Typography
           variant="h3"
+          color="primary"
           sx={{
             fontWeight: "bold",
-            color: "black",
             fontFamily: "Franklin Gothic Heavy",
             letterSpacing: "0.15em",
             fontSize: isMobile ? "2rem" : "3rem",
@@ -111,9 +111,9 @@ export default function Contatti() {
         <Button
           type="submit"
           variant="contained"
+          color="primary"
           sx={{
             fontWeight: "bold",
-            background: "black",
           }}
         >
           Invia

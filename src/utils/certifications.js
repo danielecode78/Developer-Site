@@ -159,6 +159,89 @@ export const certifications = [
     ],
   },
   {
+    category: "Python & AI Engineering",
+    providers: [
+      {
+        name: "University of Michigan",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/University_of_Michigan_logo.svg",
+        courses: [
+          {
+            title: "Programming for Everybody (Getting Started with Python)",
+            specialization: false,
+          },
+          {
+            title: "Python Data Structures",
+            specialization: false,
+          },
+          {
+            title: "Using Python to Access Web Data",
+            specialization: false,
+          },
+          {
+            title: "Using Databases with Python",
+            specialization: false,
+          },
+          {
+            title:
+              "Capstone: Retrieving, Processing, and Visualizing Data with Python",
+            specialization: false,
+          },
+          {
+            title: "Python for Everybody",
+            specialization: true,
+          },
+          {
+            title: "Python Basics",
+            specialization: false,
+          },
+          {
+            title: "Python Functions, Files, and Dictionaries",
+            specialization: false,
+          },
+          {
+            title: "Data Collection and Processing with Python",
+            specialization: false,
+          },
+          {
+            title: "Python Classes and Inheritance",
+            specialization: false,
+          },
+          {
+            title:
+              "Python Project: Software Engineering and Image Manipulation",
+            specialization: false,
+          },
+          {
+            title: "Python 3 Programming",
+            specialization: true,
+          },
+        ],
+      },
+      {
+        name: "IBM",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        courses: [
+          {
+            title: "Introduction to Artificial Intelligence (AI)",
+            specialization: false,
+          },
+          {
+            title: "Generative AI: Introduction and Applications",
+            specialization: false,
+          },
+          {
+            title: "Generative AI: Prompt Engineering Basics",
+            specialization: false,
+          },
+          {
+            title: "Python for Data Science, AI & Development",
+            specialization: false,
+          },
+        ],
+      },
+    ],
+  },
+  {
     category: "Cloud",
     providers: [
       {

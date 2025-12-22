@@ -59,6 +59,6 @@ body {
 }
 
 .chapters {
-  color: #8b6f29;
-  margin-bottom: 20px !important;
+  margin-bottom: 5px !important;
+  font-size: 1.8rem !important;
 }
