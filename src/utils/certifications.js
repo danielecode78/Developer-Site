@@ -221,6 +221,18 @@ export const certifications = [
             title: "Foundations of Data Analysis with Pandas and Python",
             specialization: false,
           },
+          {
+            title: "Intermediate Data Analysis Techniques with Pandas",
+            specialization: false,
+          },
+          {
+            title: "Advanced Data Analysis and Visualization with Pandas",
+            specialization: false,
+          },
+          {
+            title: "Data Analysis with Pandas and Python",
+            specialization: true,
+          },
         ],
       },
     ],
