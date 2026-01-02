@@ -123,42 +123,6 @@ export const certifications = [
     ],
   },
   {
-    category: "JavaScript & React",
-    providers: [
-      {
-        name: "Meta",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
-        courses: [
-          { title: "Programming with JavaScript", specialization: false },
-          { title: "React Basics", specialization: false },
-          { title: "Advanced React", specialization: false },
-          { title: "Meta React", specialization: true },
-        ],
-      },
-      {
-        name: "IBM",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
-        courses: [
-          {
-            title: "Introduction to HTML, CSS, & JavaScript",
-            specialization: false,
-          },
-          { title: "JavaScript Programming Essentials", specialization: false },
-        ],
-      },
-      {
-        name: "freeCodeCamp",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
-        courses: [
-          {
-            title: "JavaScript Algorithms and Data Structures",
-            specialization: false,
-          },
-        ],
-      },
-    ],
-  },
-  {
     category: "Python & AI Engineering",
     providers: [
       {
@@ -239,8 +203,65 @@ export const certifications = [
           },
         ],
       },
+      {
+        name: "freeCodeCamp",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
+        courses: [
+          {
+            title: "Python Certification",
+            specialization: true,
+          },
+        ],
+      },
+      {
+        name: "Packt",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Packt_Logo.png",
+        courses: [
+          {
+            title: "Foundations of Data Analysis with Pandas and Python",
+            specialization: false,
+          },
+        ],
+      },
     ],
   },
+  {
+    category: "JavaScript & React",
+    providers: [
+      {
+        name: "Meta",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        courses: [
+          { title: "Programming with JavaScript", specialization: false },
+          { title: "React Basics", specialization: false },
+          { title: "Advanced React", specialization: false },
+          { title: "Meta React", specialization: true },
+        ],
+      },
+      {
+        name: "IBM",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        courses: [
+          {
+            title: "Introduction to HTML, CSS, & JavaScript",
+            specialization: false,
+          },
+          { title: "JavaScript Programming Essentials", specialization: false },
+        ],
+      },
+      {
+        name: "freeCodeCamp",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
+        courses: [
+          {
+            title: "JavaScript Algorithms and Data Structures",
+            specialization: false,
+          },
+        ],
+      },
+    ],
+  },
+
   {
     category: "Cloud",
     providers: [
