@@ -201,6 +201,10 @@ export const certifications = [
             title: "Python for Data Science, AI & Development",
             specialization: false,
           },
+          {
+            title: "Machine Learning with Python",
+            specialization: false,
+          },
         ],
       },
       {
