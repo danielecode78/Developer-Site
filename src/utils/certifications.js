@@ -123,7 +123,43 @@ export const certifications = [
     ],
   },
   {
-    category: "Python & AI Engineering",
+    category: "JavaScript & React",
+    providers: [
+      {
+        name: "Meta",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        courses: [
+          { title: "Programming with JavaScript", specialization: false },
+          { title: "React Basics", specialization: false },
+          { title: "Advanced React", specialization: false },
+          { title: "Meta React", specialization: true },
+        ],
+      },
+      {
+        name: "IBM",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        courses: [
+          {
+            title: "Introduction to HTML, CSS, & JavaScript",
+            specialization: false,
+          },
+          { title: "JavaScript Programming Essentials", specialization: false },
+        ],
+      },
+      {
+        name: "freeCodeCamp",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
+        courses: [
+          {
+            title: "JavaScript Algorithms and Data Structures",
+            specialization: false,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Python",
     providers: [
       {
         name: "University of Michigan",
@@ -182,6 +218,21 @@ export const certifications = [
         ],
       },
       {
+        name: "freeCodeCamp",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
+        courses: [
+          {
+            title: "Python Certification",
+            specialization: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "AI & Data Science",
+    providers: [
+      {
         name: "IBM",
         logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
         courses: [
@@ -208,16 +259,6 @@ export const certifications = [
         ],
       },
       {
-        name: "freeCodeCamp",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
-        courses: [
-          {
-            title: "Python Certification",
-            specialization: true,
-          },
-        ],
-      },
-      {
         name: "Packt",
         logo: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Packt_Logo.png",
         courses: [
@@ -239,47 +280,30 @@ export const certifications = [
           },
         ],
       },
-    ],
-  },
-  {
-    category: "JavaScript & React",
-    providers: [
       {
-        name: "Meta",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
-        courses: [
-          { title: "Programming with JavaScript", specialization: false },
-          { title: "React Basics", specialization: false },
-          { title: "Advanced React", specialization: false },
-          { title: "Meta React", specialization: true },
-        ],
-      },
-      {
-        name: "IBM",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        name: "Google",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
         courses: [
           {
-            title: "Introduction to HTML, CSS, & JavaScript",
+            title: "Accelerate Your Job Search with AI",
             specialization: false,
           },
-          { title: "JavaScript Programming Essentials", specialization: false },
-        ],
-      },
-      {
-        name: "freeCodeCamp",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg",
-        courses: [
+          { title: "Introduction to AI", specialization: false },
           {
-            title: "JavaScript Algorithms and Data Structures",
+            title: "Maximize Productivity With AI Tools",
             specialization: false,
           },
+          { title: "Discover the Art of Prompting", specialization: false },
+          { title: "Use AI Responsibly", specialization: false },
+          { title: "Stay Ahead of the AI Curve", specialization: false },
+          { title: "Google AI Essentials", specialization: true },
         ],
       },
     ],
   },
 
   {
-    category: "Cloud",
+    category: "Cloud & DevOps",
     providers: [
       {
         name: "AWS",
@@ -316,30 +340,7 @@ export const certifications = [
       },
     ],
   },
-  {
-    category: "AI & Productivity",
-    providers: [
-      {
-        name: "Google",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        courses: [
-          {
-            title: "Accelerate Your Job Search with AI",
-            specialization: false,
-          },
-          { title: "Introduction to AI", specialization: false },
-          {
-            title: "Maximize Productivity With AI Tools",
-            specialization: false,
-          },
-          { title: "Discover the Art of Prompting", specialization: false },
-          { title: "Use AI Responsibly", specialization: false },
-          { title: "Stay Ahead of the AI Curve", specialization: false },
-          { title: "Google AI Essentials", specialization: true },
-        ],
-      },
-    ],
-  },
+
   {
     category: "Project Management",
     providers: [
