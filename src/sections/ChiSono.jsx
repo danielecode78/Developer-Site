@@ -60,9 +60,9 @@ export default function ChiSono() {
             <Typography variant="body1" className="font">
               Nel tempo ho ampliato il mio profilo, esplorando ambiti come la
               progettazione tecnica con AutoCAD e l’audio editing, alimentato
-              dalla mia passione per la musica, in quanto chitarrista. Questa
-              combinazione tra pensiero analitico e creatività mi ha portato a
-              sviluppare soluzioni efficaci e personalizzate.
+              dalla mia passione per la musica. Questa combinazione tra pensiero
+              analitico e creatività mi ha portato a sviluppare soluzioni
+              efficaci e personalizzate.
             </Typography>
 
             <Typography variant="body1" className="font">
@@ -86,10 +86,10 @@ export default function ChiSono() {
 
             <Typography variant="body1" className="font">
               Credo nel potere della tecnologia come leva per trasformare idee
-              in opportunità concrete. Mi ispirano le realtà che innovano, come
-              Google e Amazon, e mi motiva l’idea di supportare startup, imprese
-              e professionisti nella creazione di soluzioni digitali che
-              generino impatto e visibilità.
+              in opportunità concrete. Mi ispirano le realtà che innovano e mi
+              motiva l’idea di supportare startup, imprese e professionisti
+              nella creazione di soluzioni digitali che generino impatto e
+              visibilità.
             </Typography>
           </Box>
           <Box sx={{ mb: 5 }}>

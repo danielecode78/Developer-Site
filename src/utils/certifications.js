@@ -112,14 +112,6 @@ export const certifications = [
           },
         ],
       },
-      {
-        name: "Meta",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
-        courses: [
-          { title: "Version Control", specialization: false },
-          { title: "Coding Interview Preparation", specialization: false },
-        ],
-      },
     ],
   },
   {
@@ -156,10 +148,18 @@ export const certifications = [
           },
         ],
       },
+      {
+        name: "Meta",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        courses: [
+          { title: "Version Control", specialization: false },
+          { title: "Coding Interview Preparation", specialization: false },
+        ],
+      },
     ],
   },
   {
-    category: "Python",
+    category: "Python & Data Science",
     providers: [
       {
         name: "University of Michigan",
@@ -227,11 +227,57 @@ export const certifications = [
           },
         ],
       },
+      {
+        name: "Packt",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Packt_Logo.png",
+        courses: [
+          {
+            title: "Foundations of Data Analysis with Pandas and Python",
+            specialization: false,
+          },
+          {
+            title: "Intermediate Data Analysis Techniques with Pandas",
+            specialization: false,
+          },
+          {
+            title: "Advanced Data Analysis and Visualization with Pandas",
+            specialization: false,
+          },
+          {
+            title: "Data Analysis with Pandas and Python",
+            specialization: true,
+          },
+        ],
+      },
+      {
+        name: "University of Michigan",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/University_of_Michigan_logo.svg",
+        courses: [
+          {
+            title: "Introduction to Data Science in Python",
+            specialization: false,
+          },
+          {
+            title: "Applied Plotting, Charting & Data Representation in Python",
+            specialization: false,
+          },
+        ],
+      },
     ],
   },
   {
-    category: "AI & Data Science",
+    category: "ML / AI Development",
     providers: [
+      {
+        name: "University of Michigan",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/University_of_Michigan_logo.svg",
+        courses: [
+          {
+            title: "Applied Machine Learning in Python",
+            specialization: false,
+          },
+        ],
+      },
       {
         name: "IBM",
         logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
@@ -256,47 +302,59 @@ export const certifications = [
             title: "Machine Learning with Python",
             specialization: false,
           },
-        ],
-      },
-      {
-        name: "Packt",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Packt_Logo.png",
-        courses: [
           {
-            title: "Foundations of Data Analysis with Pandas and Python",
+            title: "Introduction to Deep Learning & Neural Networks with Keras",
             specialization: false,
           },
           {
-            title: "Intermediate Data Analysis Techniques with Pandas",
+            title: "Deep Learning with Keras and Tensorflow",
             specialization: false,
           },
           {
-            title: "Advanced Data Analysis and Visualization with Pandas",
+            title: "Introduction to Neural Networks and PyTorch",
             specialization: false,
           },
           {
-            title: "Data Analysis with Pandas and Python",
+            title: "Deep Learning with PyTorch",
+            specialization: false,
+          },
+          {
+            title: "AI Capstone Project with Deep Learning",
+            specialization: false,
+          },
+          {
+            title: "Generative AI and LLMs: Architecture and Data Preparation",
+            specialization: false,
+          },
+          {
+            title:
+              "Gen AI Foundational Models for NLP & Language Understanding",
+            specialization: false,
+          },
+          {
+            title: "Generative AI Language Modeling with Transformers",
+            specialization: false,
+          },
+          {
+            title: "Generative AI Engineering and Fine-Tuning Transformers",
+            specialization: false,
+          },
+          {
+            title: "Generative AI Advance Fine-Tuning for LLMs",
+            specialization: false,
+          },
+          {
+            title: "Fundamentals of AI Agents Using RAG and LangChain",
+            specialization: false,
+          },
+          {
+            title: "Project: Generative AI Applications with RAG and LangChain",
+            specialization: false,
+          },
+          {
+            title: "IBM AI Engineering",
             specialization: true,
           },
-        ],
-      },
-      {
-        name: "Google",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        courses: [
-          {
-            title: "Accelerate Your Job Search with AI",
-            specialization: false,
-          },
-          { title: "Introduction to AI", specialization: false },
-          {
-            title: "Maximize Productivity With AI Tools",
-            specialization: false,
-          },
-          { title: "Discover the Art of Prompting", specialization: false },
-          { title: "Use AI Responsibly", specialization: false },
-          { title: "Stay Ahead of the AI Curve", specialization: false },
-          { title: "Google AI Essentials", specialization: true },
         ],
       },
     ],
@@ -342,7 +400,7 @@ export const certifications = [
   },
 
   {
-    category: "Project Management",
+    category: "Project Management & AI Productivity",
     providers: [
       {
         name: "Google",
@@ -367,6 +425,25 @@ export const certifications = [
             specialization: false,
           },
           { title: "Google Project Management", specialization: true },
+        ],
+      },
+      {
+        name: "Google",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        courses: [
+          {
+            title: "Accelerate Your Job Search with AI",
+            specialization: false,
+          },
+          { title: "Introduction to AI", specialization: false },
+          {
+            title: "Maximize Productivity With AI Tools",
+            specialization: false,
+          },
+          { title: "Discover the Art of Prompting", specialization: false },
+          { title: "Use AI Responsibly", specialization: false },
+          { title: "Stay Ahead of the AI Curve", specialization: false },
+          { title: "Google AI Essentials", specialization: true },
         ],
       },
     ],
