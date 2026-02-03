@@ -269,6 +269,17 @@ export const certifications = [
     category: "ML / AI Development",
     providers: [
       {
+        name: "Udemy",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Udemy_logo.svg",
+        courses: [
+          {
+            title:
+              "Machine Learning A-Z: AI, Python & R - Kirill Eremenko, Hadelin de Ponteves",
+            specialization: true,
+          },
+        ],
+      },
+      {
         name: "University of Michigan",
         logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/University_of_Michigan_logo.svg",
         courses: [
